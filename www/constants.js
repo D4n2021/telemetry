@@ -47,7 +47,8 @@ var WindowsVersionMap = {
   '6.1': '7',
   '6.2': '8',
   '6.3': '8.1',
-  '10.0': '10',
+  '10.0.19*': '10',
+  '10.0.26*': '11',
 };
 function GetWindowsVersion(code)
 {
